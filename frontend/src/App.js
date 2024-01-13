@@ -5,15 +5,15 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import Dashboard from "./Dashboard";
-import Login from "./Login";
-import Register from "./Register";
-import ProtectedRoute from "./ProtectedRoute";
-import LandingPage from "./LandingPage";
-import Header from "./Header";
-import Footer from "./Footer";
-import DashboardHeader from "./DashboardHeader";
-import Profile from "./Profile";
+import Dashboard from "./modules/Dashboard";
+import Login from "./modules/Login";
+import Register from "./modules/Register";
+import ProtectedRoute from "./modules/ProtectedRoute";
+import LandingPage from "./modules/LandingPage";
+import Header from "./modules/Header";
+import Footer from "./modules/Footer";
+import DashboardHeader from "./modules/DashboardHeader";
+import Profile from "./modules/Profile";
 
 const App = () => {
   const [token, setToken] = useState(null);
