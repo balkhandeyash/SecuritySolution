@@ -1,0 +1,87 @@
+/* DashboardHeader.css */
+
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222; /* Set the background color as needed */
+  }
+  
+  .dashboard-logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dashboard-logo-container img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .dashboard-logo-container span {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .dashboard-left,
+  .dashboard-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dashboard-left .dropdown {
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f0f0f0;
+  }
+  .notification-icon svg {
+    color: #fff; /* Set the color to white */
+  }
+  
+  .dashboard-right .notification-icon {
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .notification-icon svg {
+    color: #333;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+  }
+  
